@@ -11,17 +11,14 @@
 /* tog-items */
 .tog-items{
     height: 60px;
-    width: 10px;
+    width: 8px;
     background: green;
     transition: 0.5s ease;
 }
 
 .tog-items:hover{
     background-color: red;
-}
-
-.tog-items:active{
-    background-color: #0CF;
+    width: 10px;
 }
 
 /* Logo */
