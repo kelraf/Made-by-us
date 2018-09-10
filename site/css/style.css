@@ -61,6 +61,46 @@
     background-image: url(../images/tecno/WX4-1-PC_07.jpg);
     background-size: cover;
 }
+.top-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 204, 255, 0.295);
+}
+
+.offer-img{
+    width: 120px;
+    position: absolute;
+    bottom: 350px;
+    right: 40px;
+    animation-name: offer;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes offer{
+    0%{transform: rotate(-40deg);}
+    50%{transform: rotate(40deg);}
+    100%{transform: rotate(-40deg);}
+}
+
+.off-20{
+    width: 120px;
+    position: absolute;
+    bottom: 200px;
+    right: 40px;
+    animation-name: off-20;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes off-20{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 
 /* lenovo product */
 .lenovo-parent{
