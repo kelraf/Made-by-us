@@ -92,6 +92,41 @@
     100%{opacity: 1;}
 }
 
+.welcome{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    bottom: 200px;
+    left: -48%;
+    animation-name: karibu;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes karibu{
+    0%{left: -48%;}
+    50%{left: 35%; opacity: 1;}
+    70%{left: -48%;}
+    100%{opacity: 0;}
+}
+
+.buy{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 200px;
+    left: -48%;
+    animation-name: nunua;
+    animation-duration: 7s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nunua{
+    0%{left: -48%;}
+    100%{left: 30%; opacity: 1;}
+}
+
 /* lenovo product */
 .lenovo-parent{
     height: 500px;
@@ -378,6 +413,19 @@
     opacity: 0;
     transition: 0.5s ease-in;
     transition-delay: 0.2s;
+}
+
+/* Form */
+.form-cont{
+    background-image: url(../images/additional/form.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.form-cont form{
+    border: 1px solid white;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .footer-cont{
